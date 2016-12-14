@@ -142,18 +142,19 @@ ul {
             margin-left: 30px;
             margin-top: -5px;
             margin-bottom: 5px;
-            li {
-                padding: 5px;
-                padding-left: 5px;
-		line-height: 150%;	
-                @media screen and (max-width: $br) {
-                    padding: 10px 0 10px 0;
-                }
-            }
             @media screen and (max-width: $br) {
                 margin-left: 10px;
             }
         }
+	li {
+            padding: 5px;
+            padding-left: 5px;
+	    line-height: 150%;	
+            @media screen and (max-width: $br) {
+                padding: 10px 0 10px 0;
+            }
+        }
+
         img {
             margin-top: 10px;
             margin-bottom: 10px;
