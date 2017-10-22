@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Amusing ourselves to death or what I've written will blow your mind"
+date:   2017-10-22 13:30:00
+---
+
 # Amusing ourselves to death or What I’ve written about it will blow your mind
 4/5
 
