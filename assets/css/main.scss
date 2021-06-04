@@ -3,36 +3,23 @@
 
 @import "reset";
 @import "config";
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 body {
     color: $color-black;
-    background: $color-white;
-    font-family: 'Inconsolata', ;
+    background: #ffd;
     font-size: 100%;
     font-weight: 400;
+    font-family: "Open Sans";
 }
 h1 {
     margin-bottom: 5px;
 }
 p {
-    font-size: 1em;
+    font-size: 20px;
     line-height: 150%;
 }
 a {
-  color: $color-link;
-  text-decoration: none;
-  &:visited {
-    color: $color-link;
-    text-decoration: none;
-  }
-  &:hover {
-    color: $color-link;
-    text-decoration: underline;
-  }
-  &:active {
-    color: $color-link;
-    text-decoration: none;
-  }
+	color: $color-black;
 }
 ul {
     list-style: none;
@@ -65,7 +52,7 @@ ul {
         display: block;
     }
     h1 {
-        font-size: 2em;
+        font-size: 1.5em;
         margin-bottom: 0;
     }
     ul {
@@ -73,7 +60,7 @@ ul {
         li {
             display: inline;
             padding: 0;
-            padding-left: 5px;
+            padding-left: 10px;
         }
     }
 }
@@ -97,22 +84,32 @@ ul {
     }
 }
 
+a {
+	color: $color-black;
+	text-decoration: underline dotted #2f7fa6;
+	text-decoration-thickness: 3px;
+
+}
+
+.listing {
+            margin: 12px;
+	    font-size: 20px;
+	    color: $color-black;	
+}
+
 
 .post {
     padding-bottom: 30px;
     &__title {
-        font-size: 1.6em;
-        font-weight: 700;
-        text-decoration: underline;
+        font-size: 1.3em;
+        font-style: bold;
         margin-top: 20px;
-        margin-bottom: 5px;
     }
     &__date {
-        font-size: 1em;
-        font-style: italic;
+        font-size: 0.8em;
     }
     &__content {
-        padding-top: 40px;
+        padding-top: 20px;
         h1 {
             font-size: 1.25em;
             font-weight: 700;
@@ -120,8 +117,8 @@ ul {
             margin-bottom: 5px;
         }
         p {
-            font-size: 1em;
-            line-height: 150%;
+            font-size: 20px;
+            line-height: 120%;
             margin-bottom: 15px;
         }
         a {
@@ -197,14 +194,8 @@ ul {
         margin-top: 20px;
         h1 {
             font-size: 1.2em;
-            font-style: italic;
             margin-top: 30px;
             margin-bottom: 5px;
-        }
-        p {
-            font-size: 1em;
-            line-height: 150%;
-            margin-bottom: 10px;
         }
     }
 }

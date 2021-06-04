@@ -1,25 +1,17 @@
-# Blog settings
 permalink: /blog/:title
-
 
 # My variables
 name: Sukun Tarachandani	
 description: mostly harmless
 google_verification: null
 
-
-# File management
 include: [".htaccess"]
 exclude: ["README.md", "LICENSE"]
 
-
-# Sass
 sass:
   style: :compressed
   sass_dir: _sass
 
-
-# Markdown
 markdown: kramdown
 kramdown:
   input: GFM

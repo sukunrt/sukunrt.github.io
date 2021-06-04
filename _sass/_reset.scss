@@ -1,4 +1,7 @@
-/* http://meyerweb.com/eric/tools/css/reset/ */
+
+@import 'config';
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -16,11 +19,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 1em;
-	font: inherit;
 	vertical-align: baseline;
-}
-a {
-    text-decoration: none;
 }
 // HTML5 display-role reset for older browsers
 article, aside, details, figcaption, figure,
@@ -33,5 +32,9 @@ body {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+.header h1 {
+    font-size: 1.5em;
 }
 /* END RESET */
