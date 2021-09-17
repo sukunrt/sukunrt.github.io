@@ -2,5 +2,5 @@
 layout: about
 ---
 
-I am interested in programming, math, coffee and literature
+Hi, I'm sukun. I like programming, science, cats and reading.
 
