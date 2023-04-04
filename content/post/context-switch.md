@@ -49,7 +49,7 @@ On my m1 macbook air this takes 3 seconds to complete for 1.5 microseconds per c
 
 Assuming the numbers from this talk still hold [https://www.youtube.com/watch?v=KXuZi9aeGTw](https://www.youtube.com/watch?v=KXuZi9aeGTw) mac os is able to pin the two processes correctly on two processors and this 1.5 microseconds of context switch time is due to the work done by the os scheduler.
 
-Unsurprisingly the golang equivalent of exchanging ints over a channel is blazing fast. This takes only 195 nanoseconds per context switch on my machine.
+Unsurprisingly the golang equivalent of exchanging ints over a channel is much faster. This takes only 195 nanoseconds per context switch on my machine.
 
 ```go
 package main

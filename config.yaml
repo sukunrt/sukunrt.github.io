@@ -2,7 +2,6 @@ baseURL: https://sukunrt.github.io
 languageCode: en-us
 title: Sukun Tarachandani
 theme: vanilla-bootstrap-hugo-theme
-googleAnalytics: UA-123456789-1
 
 taxonomies:
   tag: tags
