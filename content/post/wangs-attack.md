@@ -1,6 +1,6 @@
 ---
 date: "2023-04-17"
-title: Finding MD4 Collisions using Wang's attack
+title: Finding MD4 Collisions
 tags: ["go", "cryptopals", "cryptography"]
 ---
 
