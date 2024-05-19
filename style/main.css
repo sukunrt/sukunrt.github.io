@@ -1,0 +1,21 @@
+html {
+        max-width: 800px;
+        font-family: 'Open sans', sans-serif;
+        background-color: #fafaeb;
+        padding-left: 50px;
+}
+
+
+header {
+        color: #000;
+}
+header a {
+        color: #000;
+}
+
+
+
+code {
+        display: inline-block;
+        background-color: #f1f0df;
+}
