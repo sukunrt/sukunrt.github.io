@@ -16,15 +16,18 @@ html {
         font-size: 20px;
         a {
                 color: 000;
+                padding-left: 10px;
         }
 }
 .post-date {
         font-size: 15px;
-        padding: 10px;
 }
 footer {
         font-size: 15px;
-        padding: 20px;
+        padding-top: 20px;
+        a {
+                color: 000;
+        }
 }
 
 header {
