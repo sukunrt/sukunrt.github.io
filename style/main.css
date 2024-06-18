@@ -4,8 +4,6 @@
  src: url('./opensans.woff2') format('woff2');
 }
 
-
-
 html {
         max-width: 800px;
         font-family: opensans;
@@ -21,6 +19,10 @@ html {
         }
 }
 .post-date {
+        font-size: 15px;
+        padding: 10px;
+}
+footer {
         font-size: 15px;
         padding: 10px;
 }
