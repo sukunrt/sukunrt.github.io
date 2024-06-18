@@ -13,7 +13,7 @@
         <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
         <guid>https://sukunrt.github.com/wangs-attack.html</guid>
         <description>
-        <h1 id="wangs-attack-for-generating-md4-collisions">Wang’s Attack for
+        <![CDATA[<h1 id="wangs-attack-for-generating-md4-collisions">Wang’s Attack for
         generating MD4 collisions</h1>
         <p>Cryptopals Set7 Problem 53 is about finding collisions in MD4 using
         wangs attack. In “Cryptanalysis of the Hash Functions MD4 and RIPEMD”
@@ -213,7 +213,7 @@
         <p>To highlight the first difference take this prefix. The last hex
         digit is different</p>
         <pre><code>c2d093b8db8b652
-        c2d093b8db8b65a</code></pre>
+        c2d093b8db8b65a</code></pre>]]>
         </description>
     </item> 
   </channel>
